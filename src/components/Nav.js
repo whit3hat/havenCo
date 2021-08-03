@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, NavbarText  } from 'reactstrap';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import About from './About';
 
 const Navigation = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,6 +9,7 @@ const Navigation = (props) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
+      <Router>
         <div>
             <Navbar color = 'light' light expand='full'>
                 <NavbarBrand href='/'>HavenCo</NavbarBrand>
@@ -17,14 +19,20 @@ const Navigation = (props) => {
                      <NavItem>
                          <NavLink href='/'>home</NavLink>
                         <NavLink href='minecraft.havenco.xyz'>minecraft</NavLink>
-                        <NavLink href='/'>about</NavLink>
+                        <NavLink href='/About' to={About}>about</NavLink>
                      </NavItem>
                     </Nav>
                  <NavbarText>HavenCo 2021 &copy;</NavbarText>
                 </Collapse>
             </Navbar>
+
+            <Switch>
+                <Route exact path='/' />
+                <Route exact path='/About' component={About} />
+            </Switch>
         </div>
-    );
+     </Router>
+        );
 }
 
 export default Navigation;

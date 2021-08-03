@@ -3,6 +3,6 @@
 ## Project
 
 ## Technology Used
-- React
+- Reactjs 
 - ReactStrap
 - React-Router-Dom
