@@ -9,7 +9,10 @@
 
 ## To Do List
 - [x] Create about page
-- [ ] Create About Page (History of HavenCo)
+- [x] Create About Page (History of HavenCo)
+- [ ] Format About Page
+- [ ] Add image to About page
 - [ ] Fix link to Minecraft server
 - [ ] Create footer
 - [ ] Add blurb to homepage
+- [x] Link to HavenCo Wiki Page

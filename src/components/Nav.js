@@ -17,9 +17,10 @@ const Navigation = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className='mr-auto' navbar>
                      <NavItem>
-                         <NavLink href='/'>home</NavLink>
+                        <NavLink href='/'>home</NavLink>
                         <NavLink href='minecraft.havenco.xyz'>minecraft</NavLink>
                         <NavLink href='/About' to={About}>about</NavLink>
+                        <NavLink href='https://en.wikipedia.org/wiki/HavenCo'>Wiki</NavLink>
                      </NavItem>
                     </Nav>
                  <NavbarText>HavenCo 2021 &copy;</NavbarText>
