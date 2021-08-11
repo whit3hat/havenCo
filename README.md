@@ -10,8 +10,9 @@
 ## To Do List
 - [x] Create about page
 - [x] Create About Page (History of HavenCo)
+- [ ] Change about page to use col and row from media groups
 - [ ] Format About Page
-- [ ] Add image to About page
+- [x] Add image to About page
 - [X] Fix link to Minecraft server
 - [ ] Create footer
 - [ ] Design minecraft page
