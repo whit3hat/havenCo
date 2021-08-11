@@ -24,7 +24,6 @@ const Navigation = (props) => {
                         <NavLink href='https://en.wikipedia.org/wiki/HavenCo'>Wiki</NavLink>
                      </NavItem>
                     </Nav>
-                 <NavbarText>HavenCo 2021 &copy;</NavbarText>
                 </Collapse>
             </Navbar>
 
