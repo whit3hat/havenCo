@@ -3,9 +3,9 @@
 ## Project
 
 ## Technology Used
-- Reactjs 
-- ReactStrap
-- React-Router-Dom
+- [Reactjs](https://reactjs.org/) 
+- [ReactStrap](https://reactstrap.github.io/)
+- [React-Router-Dom](https://reactrouter.com/web/guides/quick-start)
 
 ## To Do List
 - [x] Create about page
